@@ -1,0 +1,105 @@
+/* quitamos los mergenes que vienen  por defecto en nuestro navegador*/
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing:  border-box;
+} 
+
+body {
+    background-color: white;
+    margin: 0;
+    
+}
+
+.logo {
+    float:left;
+	margin-top:10px
+
+  }
+
+.main-menu{
+    width: 100%;
+    margin:  auto;
+    background: #BC770D;
+}
+.main-menu ul{
+    list-style: none;
+    z-index: 99;
+}
+.menu > li{
+    position: relative;
+    display: inline-block;
+}
+.menu > li > a {
+
+    display:  block;
+    padding: 50px 20px;
+    color: #4F3712;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+.menu li a:hover {
+    color: #dbd3cd;
+    transition: all .3s;
+}
+
+/*submenu*/
+.sub-menu{
+    position: absolute;
+    background: #937b69;
+    width: 120%;
+    display: none;
+
+}
+.sub-menu li a {
+    display: block;
+    padding:  15px;
+    color: #b7a79b	;
+    font-size: 'open sans-serif';
+    text-decoration:none ;
+}
+.menu li:hover .sub-menu{
+    display: block;
+}
+.page-footer{
+    background-color: #BC770D;
+    position: static;
+   bottom: 0;
+}
+.container1{
+    display:flex;
+    padding: 20px;
+}
+.card{
+    margin-right: 25px
+}
+
+.container2{
+    display:flex;
+    padding : 25px;
+}   
+.btn{
+    background-color: #a3836a;
+    border-color: #dbd3cd;
+    
+}
+.contactos{
+    padding: 90px;
+}
+.containerreg{
+    font-size: medium;
+    padding: 20px;
+}
+
+.row{
+    padding: 25px;
+}
+.texto{
+    text-align: center;
+}
+.pedido1{
+    padding: 60px;
+
+}
